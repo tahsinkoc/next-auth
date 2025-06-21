@@ -11,7 +11,7 @@ function Modal({ isOpen, onClose }: Props) {
 
     return (
         <div className={`w-full h-screen overflow-y-scroll fixed top-0 left-0 z-[99999999] py-10 bg-white/30 backdrop-blur-lg ${isOpen ? 'block' : 'hidden'}`}>
-            <div className='max-w-[60rem] mx-auto bg-white rounded-2xl p-4 shadow-2xl overflow-x-auto'>
+            <div className='max-w-[60rem] mx-auto bg-white rounded-2xl p-4 shadow-2xl overflow-x-auto bounce-modal'>
                 <div className='w-full flex items-end justify-end'>
                     <button onClick={() => onClose(!isOpen)} className='bg-white rounded-2xl p-3 shadow-md cursor-pointer border border-slate-300/30 group'>
                         <X className='text-slate-600 group-hover:scale-125 transition-all duration-300 ease-in-out group-hover:text-red-500' />
