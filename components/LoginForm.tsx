@@ -22,11 +22,6 @@ export default function LoginForm() {
             password: formData.password,
         }
         )
-        // Simulate API call
-        // setTimeout(() => {
-        //     setIsLoading(false);
-        //     alert(isLogin ? 'Giriş başarılı!' : 'Kayıt başarılı!');
-        // }, 2000);
     };
 
     const handleInputChange = (e: any) => {
