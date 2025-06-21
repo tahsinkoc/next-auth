@@ -1,5 +1,5 @@
 # NextAuth + Auth0 Kimlik Doğrulama
-- Projenin yayınlanmış haline bu linkten erişebilir ve test edebilirsiniz: <a href="">--</a>
+- Projenin yayınlanmış haline bu linkten erişebilir ve test edebilirsiniz: <a target="_blank" href="https://next-auth-blond-one.vercel.app/">https://next-auth-blond-one.vercel.app/</a>
 ## Kullanılan Teknolojiler
 - Next.js 14+ (App Router)
 - NextAuth.js
@@ -42,7 +42,7 @@
 ```
 
 # Notlar
-  - Projenin yayınlanmış haline bu linkten erişebilir ve test edebilirsiniz: <a href="">--</a>
+  - Projenin yayınlanmış haline bu linkten erişebilir ve test edebilirsiniz: <a target="_blank" href="https://next-auth-blond-one.vercel.app/">https://next-auth-blond-one.vercel.app/</a>
   - Bu proje, 12-Factor App prensiplerine uygun olarak yapılandırılmıştır.
   - OAuth ile güvenli, JWT tabanlı stateless oturum yönetimi sağlar.
 
